@@ -1,0 +1,38 @@
+.padding {
+  padding-left: 42px;
+  padding-right: 42px;
+}
+
+.bg-image {
+  background-color: rgb(204, 255, 238);
+  padding: 20px;
+}
+
+.newerfont {
+  font-family: "Montserrat", sans-serif;
+}
+
+.bg-body {
+  background-color: azure;
+  margin: 20px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.padding-main {
+  padding-right: 60px;
+  padding-left: 60px;
+}
+
+.cat {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.newfont {
+  font-family: "Courier New", Courier, monospace;
+}
+
+.h1pad {
+  padding: 20px;
+}
