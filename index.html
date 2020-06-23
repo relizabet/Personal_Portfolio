@@ -13,109 +13,138 @@
       integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk"
       crossorigin="anonymous"
     />
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css" />
+    <script
+    src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+    integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+    crossorigin="anonymous"
+  ></script>
+  <script
+    src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+    integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+    crossorigin="anonymous"
+  ></script>
+  <script
+    src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
+    integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI"
+    crossorigin="anonymous"
+  ></script>
   </head>
-<body class="newfont">
-  <div class="container">
-    <!-- Navigation - holds the navigation bar, hamburger controls -->
-    <nav class="navbar navbar-expand-lg navbar-light bg-light padding">
-      <a class="navbar-brand" href="#">Rachel Campbell</a>
-      <button
-        class="navbar-toggler"
-        type="button"
-        data-toggle="collapse"
-        data-target="#navbarNav"
-        aria-controls="navbarNav"
-        aria-expanded="false"
-        aria-label="Toggle navigation"
-      >
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
-        <ul class="navbar-nav">
-          <li class="nav-item active">
-            <a class="nav-link" href="index.html"
-              >About Me <span class="sr-only">(current)</span></a
-            >
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="portfolio.html">Portfolio</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="contact.html">Contact</a>
-          </li>
-        </ul>
-      </div>
-    </nav>
-<div class="bg-image">
-    <div class="bg-body row">
-      <!-- Header - holds the title of the page, either 'rachel campbell' or 'about me' -->
-      <header></header>
 
-      <!-- Main - holds the img and the placeholder text, maybe also holds h2 for about me -->
-      <main class="padding-main">
-        <h1 class="text-center h1pad">About Me</h1>
-        <div class="newerfont">
-          <!-- placeholder image -->
-          <img src="https://placekitten.com/300/300" alt="kitten placeholder" class="cat" />
-          
-          <!-- placeholder text -->
-          <p class="text-justify center">
-            Mushroom risotto vegan Mexican fiesta winter entree four-layer
-            comforting pumpkin spice latte sesame soba noodles Chinese five-spice
-            powder green bowl Thai super chili cherry golden cayenne pepper
-            crunchy Thai sun pepper mint cremini mushrooms instant pot tofu fresh
-            green tea. Overflowing berries thyme blueberries green tea lime red
-            amazon pepper naga viper falafel bites pinch of yum refreshing
-            cucumber splash black beans cilantro couscous apple vinaigrette dragon
-            fruit cherries potato samosa edamame lemon cool off bruschetta eating
-            together cinnamon toast jalapeño. Seeds peach strawberry mango
-            creamiest banana bread elderberry green grapes cherry bomb pepper
-            mangos chia seeds chili oranges bite sized pomegranate Malaysian
-            bananas candy cane winter red pepper hearty overflowing citrusy quinoa
-            flatbread dark chocolate almond milk chai latte hummus falafel bowl
-            green pepper basil.
-          </p>
-          <p class="text-justify">
-            Tahini drizzle ultimate pine nuts spiced peppermint blast kale
-            lavender lemonade strawberry mango smoothie coconut sugar salad banana
-            apples ginger carrot spiced juice orange sleepy morning tea
-            grenadillo. Mediterranean vegetables cozy butternut heat cool
-            cucumbers burritos butternut mix cilantro lime vinaigrette lemon lime
-            minty avocado basil pesto cocoa ginger lemongrass agave green tea
-            strawberries broccoli frosted gingerbread bites lingonberry toasted
-            hazelnuts second course pasta hemp seeds coconut milk sweet potato
-            black bean burrito Italian linguine puttanesca pumpkin alfalfa
-            sprouts.
-          </p>
-          <p class="text-justify">
-            Mushroom risotto vegan Mexican fiesta winter entree four-layer
-            comforting pumpkin spice latte sesame soba noodles Chinese five-spice
-            powder green bowl Thai super chili cherry golden cayenne pepper
-            crunchy Thai sun pepper mint cremini mushrooms instant pot tofu fresh
-            green tea. Overflowing berries thyme blueberries green tea lime red
-            amazon pepper naga viper falafel bites pinch of yum refreshing
-            cucumber splash black beans cilantro couscous apple vinaigrette dragon
-            fruit cherries potato samosa edamame lemon cool off bruschetta eating
-            together cinnamon toast jalapeño. Seeds peach strawberry mango
-            creamiest banana bread elderberry green grapes cherry bomb pepper
-            mangos chia seeds chili oranges bite sized pomegranate Malaysian
-            bananas candy cane winter red pepper hearty overflowing citrusy quinoa
-            flatbread dark chocolate almond milk chai latte hummus falafel bowl
-            green pepper basil.
-          </p>
+  <body class="newfont">
+
+    <!-- Navigation - holds the navigation bar, hamburger controls -->
+      <nav class="navbar navbar-expand-md navbar-light navbar-light bg-light sticky-top">
+        <div class="container-fluid">
+     <!--fluid takes up 100%-->
+        <a class="navbar-brand" href="#"><span>Rachel Campbell</span></a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-toggle="collapse"
+          data-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div
+          class="collapse navbar-collapse"
+          id="navbarNav"
+        >
+          <ul class="navbar-nav ml-auto">
+            <!--ml-auto will push navigation when it's full width to righthand side-->
+            <li class="nav-item">
+              <a class="nav-link" href="index.html">About Me</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="portfolio.html">Portfolio</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="contact.html">Contact</a>
+            </li>
+          </ul>
         </div>
-        </main>
       </div>
-    <!--  holds footer - make this sticky -->
-  </div>
-      <footer class="footer text-center">
-        <div class="container">
-          <span class="text-muted">
-            Copyright &#169;
-          </span>
+      </nav>
+    </div>
+    <div class="container1">
+      <div class="bg-image">
+        <div class="bg-body row">
+          <!-- Header - holds the title of the page, either 'rachel campbell' or 'about me' -->
+          <header></header>
+
+          <!-- Main - holds the img and the placeholder text, maybe also holds h2 for about me -->
+          <main class="padding-main">
+            <h1 class="text-center h1pad">About Me</h1>
+            <div class="newerfont">
+              <!-- placeholder image -->
+              <img
+                src="./assets/photo.png"
+                alt="Photo of Rachel Campbell"
+                class="cat"
+              />
+
+              <!-- placeholder text -->
+              <p class="text-justify center">
+                Mushroom risotto vegan Mexican fiesta winter entree four-layer
+                comforting pumpkin spice latte sesame soba noodles Chinese
+                five-spice powder green bowl Thai super chili cherry golden
+                cayenne pepper crunchy Thai sun pepper mint cremini mushrooms
+                instant pot tofu fresh green tea. Overflowing berries thyme
+                blueberries green tea lime red amazon pepper naga viper falafel
+                bites pinch of yum refreshing cucumber splash black beans
+                cilantro couscous apple vinaigrette dragon fruit cherries potato
+                samosa edamame lemon cool off bruschetta eating together
+                cinnamon toast jalapeño. Seeds peach strawberry mango creamiest
+                banana bread elderberry green grapes cherry bomb pepper mangos
+                chia seeds chili oranges bite sized pomegranate Malaysian
+                bananas candy cane winter red pepper hearty overflowing citrusy
+                quinoa flatbread dark chocolate almond milk chai latte hummus
+                falafel bowl green pepper basil.
+              </p>
+              <p class="text-justify">
+                Tahini drizzle ultimate pine nuts spiced peppermint blast kale
+                lavender lemonade strawberry mango smoothie coconut sugar salad
+                banana apples ginger carrot spiced juice orange sleepy morning
+                tea grenadillo. Mediterranean vegetables cozy butternut heat
+                cool cucumbers burritos butternut mix cilantro lime vinaigrette
+                lemon lime minty avocado basil pesto cocoa ginger lemongrass
+                agave green tea strawberries broccoli frosted gingerbread bites
+                lingonberry toasted hazelnuts second course pasta hemp seeds
+                coconut milk sweet potato black bean burrito Italian linguine
+                puttanesca pumpkin alfalfa sprouts.
+              </p>
+              <p class="text-justify">
+                Mushroom risotto vegan Mexican fiesta winter entree four-layer
+                comforting pumpkin spice latte sesame soba noodles Chinese
+                five-spice powder green bowl Thai super chili cherry golden
+                cayenne pepper crunchy Thai sun pepper mint cremini mushrooms
+                instant pot tofu fresh green tea. Overflowing berries thyme
+                blueberries green tea lime red amazon pepper naga viper falafel
+                bites pinch of yum refreshing cucumber splash black beans
+                cilantro couscous apple vinaigrette dragon fruit cherries potato
+                samosa edamame lemon cool off bruschetta eating together
+                cinnamon toast jalapeño. Seeds peach strawberry mango creamiest
+                banana bread elderberry green grapes cherry bomb pepper mangos
+                chia seeds chili oranges bite sized pomegranate Malaysian
+                bananas candy cane winter red pepper hearty overflowing citrusy
+                quinoa flatbread dark chocolate almond milk chai latte hummus
+                falafel bowl green pepper basil.
+              </p>
+            </div>
+          </main>
         </div>
-      </footer>
+        <!--  holds footer - make this sticky -->
+      </div>
+    </div>
+    <footer class="footer text-center bg-light">
+      <div class="container">
+        <span class="text-muted">
+          Copyright &#169;
+        </span>
+      </div>
+    </footer>
   </body>
 </html>
