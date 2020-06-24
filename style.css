@@ -1,50 +1,13 @@
-/* div.container1 {
-  padding-top: 50px;
-  padding-bottom: 50px;
-}
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200&display=swap");
 
-.padding {
-  padding-left: 42px;
-  padding-right: 42px;
-  position: fixed;
-  width: 100%;
-}
-
-.bg-image {
-  background-color: rgb(230, 247, 242);
-  padding: 20px;
-}
-
-.newerfont {
+.mont {
   font-family: "Montserrat", sans-serif;
 }
 
-.bg-body {
-  margin: 20px;
-  padding-top: 20px;
-  padding-bottom: 20px;
-  background-color: #fff;
+.marg {
+  margin-right: 30px;
+  margin-bottom: 25px;
 }
-
-.padding-main {
-  margin-right: 100px;
-  margin-left: 100px;
-  /* padding-right: 60px;
-  padding-left: 60px; */
-/* } */
-
-/* .cat {
-  padding-top: 20px;
-  padding-bottom: 20px;
-}
-
-.newfont {
-  font-family: "Courier New", Courier, monospace;
-}
-
-.h1pad {
-  padding: 20px;
-} */
 
 .footer {
   position: fixed;
