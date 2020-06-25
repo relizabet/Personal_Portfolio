@@ -33,14 +33,10 @@
 
   <body class="mont">
     <div>
-      <!-- Navigation - holds the navigation bar, hamburger controls -->
-      <nav
-        class="navbar navbar-expand-md navbar-light navbar-light bg-light sticky-top"
-      >
+      <nav class="navbar navbar-expand-md navbar-light bg-light shadow-sm">
         <div class="container-fluid">
-          <!--fluid takes up 100%-->
-          <a class="navbar-brand" href="index.html">
-            <span>Rachel Campbell</span>
+          <a class="navbar-brand bg-dark" href="index.html">
+            <span class="bg-dark p-3 text-light">Rachel Campbell</span>
           </a>
           <button
             class="navbar-toggler"
@@ -55,7 +51,6 @@
           </button>
           <div class="collapse navbar-collapse" id="navbarNav">
             <ul class="navbar-nav ml-auto">
-              <!--ml-auto will push navigation when it's full width to righthand side-->
               <li class="nav-item">
                 <a class="nav-link" href="index.html">About Me</a>
               </li>
@@ -71,54 +66,30 @@
       </nav>
     </div>
 
-    <div class="container">
-      <!-- Header -->
-      <div class="row">
-        <header class="col">
-          <h1 class="text-center">About Me</h1>
-        </header>
-      </div>
-      <!-- Main -->
-      <div class="row justify-content-center">
-        <main class="col-10">
-          <div>
-            <!-- placeholder image -->
+    <main class="m-4 flex-shrink-0">
+      <!-- container for body -->
+      <div class="container bg-light text-center shadow p-3 mb-5 rounded">
+        <!-- header -->
+        <div class="row justify-content-center">
+          <div class="col-6 p-4">
+            <header>
+              <h1 class="text-center">About Me</h1>
+            </header>
+            <hr />
+          </div>
+        </div>
+
+        <!-- placing jcc on the row div is what works to center content, other places were not working -->
+        <div class="row pb-4 align-items-center justify-content-around">
+          <!-- <div class="p-1"> -- this class was forcing everything to the left -->
+          <div class="col-sm-10 col-md-5">
             <img
               src="./assets/photo.png"
               alt="Photo of Rachel Campbell"
-              class="rounded float-left marg"
+              class="rounded marg"
             />
-
-            <!-- placeholder text -->
-            <p class="text-justify">
-              Mushroom risotto vegan Mexican fiesta winter entree four-layer
-              comforting pumpkin spice latte sesame soba noodles Chinese
-              five-spice powder green bowl Thai super chili cherry golden
-              cayenne pepper crunchy Thai sun pepper mint cremini mushrooms
-              instant pot tofu fresh green tea. Overflowing berries thyme
-              blueberries green tea lime red amazon pepper naga viper falafel
-              bites pinch of yum refreshing cucumber splash black beans cilantro
-              couscous apple vinaigrette dragon fruit cherries potato samosa
-              edamame lemon cool off bruschetta eating together cinnamon toast
-              jalapeño. Seeds peach strawberry mango creamiest banana bread
-              elderberry green grapes cherry bomb pepper mangos chia seeds chili
-              oranges bite sized pomegranate Malaysian bananas candy cane winter
-              red pepper hearty overflowing citrusy quinoa flatbread dark
-              chocolate almond milk chai latte hummus falafel bowl green pepper
-              basil.
-            </p>
-            <p class="text-justify">
-              Tahini drizzle ultimate pine nuts spiced peppermint blast kale
-              lavender lemonade strawberry mango smoothie coconut sugar salad
-              banana apples ginger carrot spiced juice orange sleepy morning tea
-              grenadillo. Mediterranean vegetables cozy butternut heat cool
-              cucumbers burritos butternut mix cilantro lime vinaigrette lemon
-              lime minty avocado basil pesto cocoa ginger lemongrass agave green
-              tea strawberries broccoli frosted gingerbread bites lingonberry
-              toasted hazelnuts second course pasta hemp seeds coconut milk
-              sweet potato black bean burrito Italian linguine puttanesca
-              pumpkin alfalfa sprouts.
-            </p>
+          </div>
+          <div class="col-sm-10 col-md-5 justify-content-center p-4">
             <p class="text-justify">
               Mushroom risotto vegan Mexican fiesta winter entree four-layer
               comforting pumpkin spice latte sesame soba noodles Chinese
@@ -137,11 +108,12 @@
               basil.
             </p>
           </div>
-        </main>
+          <!-- </div> -->
+        </div>
       </div>
-      <!--  holds footer - make this sticky -->
-    </div>
-    <footer class="footer text-center bg-light">
+    </main>
+    <br />
+    <footer class="footer text-center bg-light mt-4">
       <div class="container">
         <span class="text-muted">
           Copyright &#169;

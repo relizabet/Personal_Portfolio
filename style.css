@@ -2,11 +2,22 @@
 
 .mont {
   font-family: "Montserrat", sans-serif;
+  background-color: rgb(255, 255, 255);
 }
 
+li.navstyle {
+  height: 100%;
+}
+
+/* .main {
+  margin-bottom: 20px;
+  margin-top: 20px;
+} */
+
 .marg {
-  margin-right: 30px;
-  margin-bottom: 25px;
+  width: 220px;
+  height: 220px;
+  object-fit: auto;
 }
 
 .footer {
