@@ -9,16 +9,29 @@ li.navstyle {
   height: 100%;
 }
 
-/* .main {
-  margin-bottom: 20px;
-  margin-top: 20px;
-} */
-
 .marg {
   width: 220px;
   height: 220px;
   object-fit: auto;
 }
+
+/* social media icons */
+
+/* Style all font awesome icons */
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+}
+
+/* Add a hover effect if you want */
+.fa:hover {
+  opacity: 0.7;
+}
+
+/* Set a specific color for each brand */
 
 .footer {
   position: fixed;
