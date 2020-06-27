@@ -2,7 +2,10 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
     <title>Portfolio</title>
     <link
       rel="stylesheet"
@@ -11,6 +14,10 @@
       crossorigin="anonymous"
     />
     <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
     <script
       src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
       integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
@@ -27,17 +34,14 @@
       crossorigin="anonymous"
     ></script>
   </head>
-  
+
   <body class="mont">
+    <!-- begin navigation -->
     <div>
-      <!-- Navigation - holds the navigation bar, hamburger controls -->
-      <nav
-        class="navbar navbar-expand-md navbar-light navbar-light bg-light sticky-top"
-      >
+      <nav class="navbar navbar-expand-md navbar-light bg-light shadow-sm">
         <div class="container-fluid">
-          <!--fluid takes up 100%-->
-          <a class="navbar-brand" href="index.html">
-            <span>Rachel Campbell</span>
+          <a class="navbar-brand bg-dark" href="index.html">
+            <span class="bg-dark p-3 text-light">Rachel Campbell</span>
           </a>
           <button
             class="navbar-toggler"
@@ -52,7 +56,6 @@
           </button>
           <div class="collapse navbar-collapse" id="navbarNav">
             <ul class="navbar-nav ml-auto">
-              <!--ml-auto will push navigation when it's full width to righthand side-->
               <li class="nav-item">
                 <a class="nav-link" href="index.html">About Me</a>
               </li>
@@ -67,10 +70,92 @@
         </div>
       </nav>
     </div>
+    <!-- end navigation -->
 
-    <header>
-      <h1>Portfolio</h1>
-    </header>
-    <main></main>
+    <!-- begin full content-->
+    <main class="m-4 flex-shrink-0">
+      <!-- container for body -->
+      <div class="container bg-light text-center shadow p-3 mt-5 mb-5 rounded">
+        <!-- header -->
+        <div class="row justify-content-center text-center">
+          <div class="col-6 p-4">
+            <header>
+              <h1 class="text-center">Portfolio</h1>
+            </header>
+            <hr />
+          </div>
+        </div>
+        <!-- end header -->
+
+        <!-- begin card content -->
+        <!-- <div class="row align-items-center justify-content-around"></div> -->
+
+        <!-- bootstrap card layout -->
+        <div class="row row-cols-1 row-cols-md-3">
+          <div class="col mb-4">
+            <div class="card h-100">
+              <img src="..." class="card-img-top" alt="..." />
+              <div class="card-body">
+                <h5 class="card-title">Card title</h5>
+                <p class="card-text">
+                  This is a longer card with supporting text below as a natural
+                  lead-in to additional content. This content is a little bit
+                  longer.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col mb-4">
+            <div class="card h-100">
+              <img src="..." class="card-img-top" alt="..." />
+              <div class="card-body">
+                <h5 class="card-title">Card title</h5>
+                <p class="card-text">This is a short card.</p>
+              </div>
+            </div>
+          </div>
+          <div class="col mb-4">
+            <div class="card h-100">
+              <img src="..." class="card-img-top" alt="..." />
+              <div class="card-body">
+                <h5 class="card-title">Card title</h5>
+                <p class="card-text">
+                  This is a longer card with supporting text below as a natural
+                  lead-in to additional content.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col mb-4">
+            <div class="card h-100">
+              <img src="..." class="card-img-top" alt="..." />
+              <div class="card-body">
+                <h5 class="card-title">Card title</h5>
+                <p class="card-text">
+                  This is a longer card with supporting text below as a natural
+                  lead-in to additional content. This content is a little bit
+                  longer.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- end bootstrap card layout -->
+
+        <!-- end card content -->
+      </div>
+    </main>
+    <!-- end header/content -->
+    <br />
+
+    <!-- begin footer -->
+    <footer class="footer text-center bg-light mt-4">
+      <div class="container">
+        <span class="text-muted">
+          Copyright &#169;
+        </span>
+      </div>
+    </footer>
+    <!-- end footer -->
   </body>
 </html>
