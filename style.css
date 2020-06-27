@@ -19,11 +19,13 @@ li.navstyle {
 
 /* Style all font awesome icons */
 .fa {
-  padding: 20px;
+  padding: 7px;
   font-size: 30px;
-  width: 50px;
+  width: 30px;
+  height: 30px;
   text-align: center;
   text-decoration: none;
+  border-radius: 50%;
 }
 
 /* Add a hover effect if you want */
@@ -32,6 +34,22 @@ li.navstyle {
 }
 
 /* Set a specific color for each brand */
+/* Twitter */
+
+.fa-github {
+  background: #333;
+  color: white;
+}
+
+.fa-linkedin {
+  background: #0e76a8;
+  color: #fff;
+}
+
+.fa-twitter {
+  background: #55acee;
+  color: white;
+}
 
 .footer {
   position: fixed;
