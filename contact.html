@@ -2,7 +2,10 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
     <title>Contact</title>
     <link
       rel="stylesheet"
@@ -11,6 +14,10 @@
       crossorigin="anonymous"
     />
     <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
     <script
       src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
       integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
@@ -29,66 +36,82 @@
   </head>
 
   <body class="mont">
-    <nav
-      class="navbar navbar-expand-md navbar-light navbar-light bg-light sticky-top"
-    >
-      <div class="container-fluid">
-        <!--fluid takes up 100%-->
-        <a class="navbar-brand" href="index.html">
-          <span>Rachel Campbell</span>
-        </a>
-        <button
-          class="navbar-toggler"
-          type="button"
-          data-toggle="collapse"
-          data-target="#navbarNav"
-          aria-controls="navbarNav"
-          aria-expanded="false"
-          aria-label="Toggle navigation"
-        >
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarNav">
-          <ul class="navbar-nav ml-auto">
-            <!--ml-auto will push navigation when it's full width to righthand side-->
-            <li class="nav-item">
-              <a class="nav-link" href="index.html">About Me</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="portfolio.html">Portfolio</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="contact.html">Contact</a>
-            </li>
-          </ul>
+    <!-- begin navigation -->
+    <div>
+      <nav class="navbar navbar-expand-md navbar-light bg-light shadow-sm">
+        <div class="container-fluid">
+          <a class="navbar-brand bg-dark" href="index.html">
+            <span class="bg-dark p-3 text-light">Rachel Campbell</span>
+          </a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-toggle="collapse"
+            data-target="#navbarNav"
+            aria-controls="navbarNav"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ml-auto">
+              <li class="nav-item">
+                <a class="nav-link" href="index.html">About Me</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="portfolio.html">Portfolio</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="contact.html">Contact</a>
+              </li>
+            </ul>
+          </div>
         </div>
-      </div>
-    </nav>
-    <div class="container main">
-      <!-- Navigation - holds the navigation bar, hamburger controls -->
-      <div class="row justify-content-center">
-        <div class="col-4">
-          <header>
-            <h1>Contact</h1>
-          </header>
-          <main>
-            <form class="jumbotron">
-              <label for="name">Name</label>
-              <input type="text" id="name" name="name" placeholder="Jane Doe" />
-              <label for="email">Email</label>
-              <input
-                type="text"
-                id="email"
-                name="email"
-                placeholder="JaneDoe@email.com"
-              />
-              <label for="message">Message</label>
-              <textarea id="message" name="message"></textarea>
-              <input type="submit" value="submit" />
-            </form>
-          </main>
-        </div>
-      </div>
+      </nav>
     </div>
+    <!-- end navigation -->
+
+    <main class="m-4 flex-shrink-0">
+      <!-- container for body -->
+      <div class="container bg-light text-center shadow p-3 mt-5 mb-5 rounded">
+        <!-- header -->
+        <div class="row justify-content-center">
+          <div class="col-6 p-4">
+            <header>
+              <h1 class="text-center">Contact Me</h1>
+            </header>
+            <hr />
+          </div>
+        </div>
+
+        <!-- placing jcc on the row div is what works to center content, other places were not working -->
+        <div class="row pb-4 align-items-center justify-content-around">
+          <form class="col-sm-10 col-md-10 col-lg-8">
+            <div class="form-group">
+              <label for="exampleFormControlInput1">Name</label>
+              <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="Jane Doe">
+            </div>
+            <div class="form-group">
+              <label for="exampleFormControlInput1">Email address</label>
+              <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="janedoe@email.com">
+            </div>
+            <div class="form-group">
+              <label for="exampleFormControlTextarea1">Message</label>
+              <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+            </div>
+            <button type="button" class="btn btn-secondary">Submit</button>
+          </form>
+        </div>
+      </div>
+    </main>
+    <br />
+    <footer class="text-center bg-light mt-4 w-100 mh-100 fixed-bottom">
+      <div class="container">
+        <span class="text-muted">
+          Copyright &#169 2020 Rachel E Campbell
+        </span>
+      </div>
+    </footer>
   </body>
 </html>

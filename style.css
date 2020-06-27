@@ -15,8 +15,7 @@ li.navstyle {
   object-fit: auto;
 }
 
-/* social media icons */
-
+/* social media icons ~courtesy of w3 schools~ */
 /* Style all font awesome icons */
 .fa {
   padding: 7px;
@@ -28,8 +27,8 @@ li.navstyle {
   border-radius: 50%;
 }
 
-/* Add a hover effect if you want */
-.fa:hover {
+/* hover effect */
+.pointer:hover {
   opacity: 0.7;
 }
 
@@ -52,10 +51,7 @@ li.navstyle {
   color: white;
 }
 
-.footer {
-  position: fixed;
-  bottom: 0;
-  height: 30px;
-  line-height: 30px;
-  width: 100%;
+/* Portfolio cards */
+.col:hover {
+  opacity: 0.7;
 }
