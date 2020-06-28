@@ -13,26 +13,11 @@
       integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk"
       crossorigin="anonymous"
     />
-    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="assets/style.css" />
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
     />
-    <script
-      src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
-      integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
-      crossorigin="anonymous"
-    ></script>
-    <script
-      src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
-      integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
-      crossorigin="anonymous"
-    ></script>
-    <script
-      src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
-      integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI"
-      crossorigin="anonymous"
-    ></script>
   </head>
 
   <body class="mont">
@@ -57,7 +42,7 @@
           <div class="collapse navbar-collapse" id="navbarNav">
             <ul class="navbar-nav ml-auto">
               <li class="nav-item">
-                <a class="nav-link" href="index.html">About Me</a>
+                <a class="nav-link text-dark" href="index.html">About Me</a>
               </li>
               <li class="nav-item">
                 <a class="nav-link" href="portfolio.html">Portfolio</a>
@@ -72,27 +57,35 @@
     </div>
     <!-- end navigation -->
 
-    <main class="m-4 flex-shrink-0">
+    <!-- break for space between navigation and main content  -->
+    <br />
+
+    <!-- begin main content  -->
+    <main class="m-1">
       <!-- container for body -->
       <div class="container bg-light text-center shadow p-3 mt-5 mb-5 rounded">
         <!-- header -->
         <div class="row justify-content-center">
-          <div class="col-6 p-4">
+          <div class="col-6 p-1">
             <header>
-              <h1 class="text-center">About Me</h1>
+              <h1>About Me</h1>
             </header>
             <hr />
           </div>
         </div>
+        <!-- end header  -->
 
-        <!-- placing jcc on the row div is what works to center content, other places were not working -->
-        <div class="row pb-4 align-items-center justify-content-around">
-          <!-- <div class="p-1"> -- this class was forcing everything to the left -->
+        <!-- break for space between header and img/text content  -->
+        <br />
+
+        <!-- image and text content  -->
+        <div class="row pb-4 align-items-center justify-content-center">
           <div class="col-xs-12 col-sm-10 col-md-5">
+            <!-- img-thumbnail class for responsiveness  -->
             <img
               src="./assets/photo.png"
               alt="Photo of Rachel Campbell"
-              class="rounded marg shadow-sm border"
+              class="rounded shadow-sm border img-thumbnail"
             />
             <div class="media justify-content-center mt-4">
               <a href="https://github.com/relizabet" target="_blank"
@@ -109,36 +102,61 @@
               </a>
             </div>
           </div>
+
+          <!-- about me text -->
           <div class="col-xs-12 col-sm-10 col-md-6 justify-content-center p-4">
             <p class="text-justify">
-              Mushroom risotto vegan Mexican fiesta winter entree four-layer
-              comforting pumpkin spice latte sesame soba noodles Chinese
-              five-spice powder green bowl Thai super chili cherry golden
-              cayenne pepper crunchy Thai sun pepper mint cremini mushrooms
-              instant pot tofu fresh green tea. Overflowing berries thyme
-              blueberries green tea lime red amazon pepper naga viper falafel
-              bites pinch of yum refreshing cucumber splash black beans cilantro
-              couscous apple vinaigrette dragon fruit cherries potato samosa
-              edamame lemon cool off bruschetta eating together cinnamon toast
-              jalapeño. Seeds peach strawberry mango creamiest banana bread
-              elderberry green grapes cherry bomb pepper mangos chia seeds chili
-              oranges bite sized pomegranate Malaysian bananas candy cane winter
-              red pepper hearty overflowing citrusy quinoa flatbread dark
-              chocolate almond milk chai latte hummus falafel bowl green pepper
-              basil.
+              I am an aspiring Full Stack Web Developer. I have a passion for
+              creating things be it through ink, clay, or code. My ultimate goal
+              is to start my own Cyber Security firm after completing my
+              Bachelors of Science in Computer Science.
+            </p>
+            <p class="text-justify">
+              I currently work full time for Comcast as a CAE 4 handling high
+              security accounts for our customers that require additional
+              identity security.
+            </p>
+            <p class="text-justify">
+              In my personal life I am a new mother to a baby boy. I spend the
+              majority of my time working on personal coding projects with my
+              son strapped to my chest.
             </p>
           </div>
-          <!-- </div> -->
         </div>
+        <!-- end image and text  -->
       </div>
     </main>
+    <!-- end main content  -->
+
+    <!-- break for space between footer and body  -->
     <br />
+
+    <!-- begin footer - bootstrap used to create sticky footer -->
     <footer class="text-center bg-light mt-4 w-100 mh-100 fixed-bottom">
       <div class="container">
         <span class="text-muted">
-          Copyright &#169 2020 Rachel E Campbell
+          Copyright &#169; 2020 Rachel Campbell
         </span>
       </div>
     </footer>
+    <!-- end footer -->
+
+    <!-- script links -->
+    <script
+      src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+      integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+      integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
+      integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI"
+      crossorigin="anonymous"
+    ></script>
+    <!-- end script links  -->
   </body>
 </html>

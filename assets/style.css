@@ -1,18 +1,12 @@
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200&display=swap");
 
-.mont {
+body.mont {
   font-family: "Montserrat", sans-serif;
   background-color: rgb(255, 255, 255);
 }
 
 li.navstyle {
   height: 100%;
-}
-
-.marg {
-  width: 220px;
-  height: 220px;
-  object-fit: auto;
 }
 
 /* social media icons ~courtesy of w3 schools~ */
@@ -28,7 +22,7 @@ li.navstyle {
 }
 
 /* hover effect */
-.pointer:hover {
+i.pointer:hover {
   opacity: 0.7;
 }
 

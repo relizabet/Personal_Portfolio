@@ -1,81 +1,37 @@
-# Personal_Portfolio
+# Personal Portfolio
 
-    ## Directions
-    First, you will use the Bootstrap CSS Framework to create a mobile responsive portfolio. How do you deliver this? Here are some guidelines:
+The goal of this project was to design a personal portfolio that is tailored to me.
 
-    * Create the following files files: `index.html`, `portfolio.html` and `contact.html`.
+## Getting Started
 
-    * Using Bootstrap, develop your portfolio site with the following items:
+All that is required to run this is to follow this link to view in github pages:
 
-    * A navbar
+## Built With
 
-    * A responsive layout
+- [HTML5](https://www.w3.org/TR/html52/) - The markup language used
+- [Bootstrap 4, Bootstrap 4 JS, Bootstrap 4 JQuery](https://getbootstrap.com/docs/4.5/getting-started/introduction/) - CSS Framework used
 
-    * Responsive images
+## Screenshots
 
-    * The Bootstrap portfolio should minimize the use of media queries.
+![980 About Me](assets/980-index.png)
+![980 Portfolio](assets/980-portfolio.png)
+![980 Contact](assets/980-contact.png)
+![768 About Me](assets/768-index.png)
+![768 Portfolio](assets/768-portfolio.png)
+![768 Contact](assets/768-contact.png)
+![640 About Me](assets/640-index.png)
+![640 Portfolio](assets/640-portfolio.png)
+![640 Contact](assets/640-contact.png)640
 
-    * Screenshots are provided as a reference in the `Assets/Images` folder. Your app does not need to be _exactly_ like the images. Use Bootstrap to create a similar, responsive layout.
+## Authors
 
-    ### Hints
+- **Rachel Campbell** - _complete work_ - [relizabet](https://github.com/relizabet)
 
-    * Use Bootstrap's grid system (containers, rows, and columns).
+## License
 
-    * On an `xs` screen, content should take up the entire screen. On `sm` and larger screens, you should have some margins on the left and right sides of the screen. Check out various sites on your mobile device vs. your computer to see examples of these differences.
+This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
 
-    * Use an HTML validation service to ensure that each page has valid HTML.
+## Acknowledgments
 
-    ### Minimum Requirements
-
-    * Functional, deployed application
-
-    * GitHub repository with README describing the project
-
-    * Navbar must be consistent on each page.
-
-    * Navbar on each page must contain links to Home/About, Contact, and Portfolio pages.
-
-    * All links must work.
-
-    * Must use semantic html.
-
-    * Each page must have valid and correct HTML. (use a validation service)
-
-    * Must contain your personalized information. (bio, name, images, links to social media, etc.)
-
-    * Must properly utilize Bootstrap components and grid system.
-
-
-    ### Bonus
-
-    * Using Bootstrap, make a sticky footer and use sub-rows and sub-columns on your portfolio site (**Hint:** Check out the Bootstrap documentation).
-
-
-    ## Commit Early and Often
-
-    One of the most important skills to master as a web developer is version control. Building the habit of committing via Git is important for two reasons:
-
-    * Your commit history is a signal to employers that you are actively working on projects and learning new skills.
-
-    * Your commit history allows you to revert your codebase in the event that you need to return to a previous state.
-
-    Follow these guidelines for committing:
-
-    * Make single-purpose commits for related changes to ensure a clean, manageable history. If you are fixing two issues, make two commits.
-
-    * Write descriptive, meaningful commit messages so that you and anyone else looking at your repository can easily understand its history.
-
-    * Don't commit half-done work, for the sake of your collaborators (and your future self!).
-
-    * Test your application before you commit to ensure functionality at every step in the development process.
-
-    We would like you to have well over 200 commits by graduation, so commit early and often!
-
-
-    ## Submission on BCS
-
-    You are required to submit the following:
-
-    * The URLs of the deployed applications
-
-    * The URLs of the GitHub repositories
+- Bootstrap developers
+- My instructors
