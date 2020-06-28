@@ -4,7 +4,7 @@ The goal of this project was to design a personal portfolio that is tailored to 
 
 ## Getting Started
 
-All that is required to run this is to follow this link to view in github pages:
+All that is required to run this is to follow this link to view in github pages: [Personal Portfolio](https://relizabet.github.io/Personal_Portfolio/)
 
 ## Built With
 
